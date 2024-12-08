@@ -1,0 +1,16 @@
+,model_name,timestamp,parameters,balanced_accuracy,roc_auc,f1,classification_report
+0,Pipeline,2024-12-07 16:56:23,"{'memory': None, 'steps': [('scaler', StandardScaler()), ('model', GradientBoostingClassifier(learning_rate=0.00077057813155207, max_depth=8,
+                           min_samples_leaf=8, min_samples_split=7,
+                           n_estimators=257, random_state=42,
+                           subsample=0.5601062536298395))], 'verbose': False, 'scaler': StandardScaler(), 'model': GradientBoostingClassifier(learning_rate=0.00077057813155207, max_depth=8,
+                           min_samples_leaf=8, min_samples_split=7,
+                           n_estimators=257, random_state=42,
+                           subsample=0.5601062536298395), 'scaler__copy': True, 'scaler__with_mean': True, 'scaler__with_std': True, 'model__ccp_alpha': 0.0, 'model__criterion': 'friedman_mse', 'model__init': None, 'model__learning_rate': 0.00077057813155207, 'model__loss': 'log_loss', 'model__max_depth': 8, 'model__max_features': None, 'model__max_leaf_nodes': None, 'model__min_impurity_decrease': 0.0, 'model__min_samples_leaf': 8, 'model__min_samples_split': 7, 'model__min_weight_fraction_leaf': 0.0, 'model__n_estimators': 257, 'model__n_iter_no_change': None, 'model__random_state': 42, 'model__subsample': 0.5601062536298395, 'model__tol': 0.0001, 'model__validation_fraction': 0.1, 'model__verbose': 0, 'model__warm_start': False}",0.7884615384615385,0.8084319526627218,0.7883832778394376,"              precision    recall  f1-score   support
+
+           0       0.80      0.77      0.78        52
+           1       0.78      0.81      0.79        52
+
+    accuracy                           0.79       104
+   macro avg       0.79      0.79      0.79       104
+weighted avg       0.79      0.79      0.79       104
+"

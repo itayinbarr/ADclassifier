@@ -1,0 +1,7 @@
+feature,mi_score,frequency_band
+ThetaSlow_mean,0.11241803038730014,Theta
+Delta_Temporal_mean,0.10420873834305322,Delta
+AlphaFast_Central_mean,0.09891925613644359,Alpha
+BetaSlow_Parietal_mean,0.08206115345567566,BetaSlow
+Beta_Parietal_mean,0.04885282516704681,Beta
+BetaFast_mean,0.03690611343918304,BetaFast

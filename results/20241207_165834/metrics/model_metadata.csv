@@ -1,0 +1,10 @@
+,model_name,timestamp,parameters,balanced_accuracy,roc_auc,f1,classification_report
+0,Pipeline,2024-12-07 17:02:33,"{'memory': None, 'steps': [('scaler', StandardScaler()), ('model', <catboost.core.CatBoostClassifier object at 0x1665691f0>)], 'verbose': False, 'scaler': StandardScaler(), 'model': <catboost.core.CatBoostClassifier object at 0x1665691f0>, 'scaler__copy': True, 'scaler__with_mean': True, 'scaler__with_std': True, 'model__iterations': 415, 'model__learning_rate': 0.00017597706225257455, 'model__depth': 10, 'model__l2_leaf_reg': 4.74577869736158e-08, 'model__random_state': 42}",0.8363636363636364,0.9019834710743803,0.8363095238095238,"              precision    recall  f1-score   support
+
+           0       0.85      0.82      0.83       110
+           1       0.82      0.85      0.84       110
+
+    accuracy                           0.84       220
+   macro avg       0.84      0.84      0.84       220
+weighted avg       0.84      0.84      0.84       220
+"
