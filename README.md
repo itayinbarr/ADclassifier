@@ -2,6 +2,7 @@
 
 This project implements a machine learning pipeline for analyzing EEG frequency patterns to detect Alzheimer's Disease (AD). It focuses on identifying and analyzing frequency-based differences between AD patients and age-matched healthy controls using EEG data.
 
+Data os based on research data from the [article]([url](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0244180)) "Resting state EEG biomarkers of cognitive decline associated with Alzheimer's disease and mild cognitive impairment" which is attached to the repository.
 ## Project Overview
 
 The project analyzes EEG data to:
@@ -93,12 +94,3 @@ Detailed results can be found in the `report.md` file, which includes:
 - Model performance metrics
 - Clinical implications
 - Methodological trade-offs
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-Based on research data from the article "Resting state EEG biomarkers of cognitive decline associated with Alzheimer's disease and mild cognitive impairment" which is attached to the repository.
-# ADclassifier
