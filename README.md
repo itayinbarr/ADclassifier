@@ -32,13 +32,6 @@ The project analyzes EEG data to:
 └── README.md                 # This file
 ```
 
-## Key Features
-
-- **Comprehensive Feature Engineering**: Implements mutual information-based feature selection focusing on key frequency bands
-- **Robust Model Selection**: Uses Optuna for hyperparameter optimization across multiple model types
-- **Multiple Evaluation Approaches**: Implements both conservative (downsampling) and high-detection (oversampling) strategies
-- **Detailed Performance Analysis**: Provides comprehensive metrics and visualizations for model evaluation
-
 ## Main Findings
 
 The analysis identified several key frequency bands that distinguish AD patients from controls:
