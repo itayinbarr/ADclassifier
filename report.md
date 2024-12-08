@@ -11,6 +11,7 @@ After analyzing all available frequency bands and regions, I employed mutual inf
 | Alpha (fast range) | 10-13 Hz        | Central  | 0.099    |
 | Beta (slow range)  | 13-20 Hz        | Parietal | 0.082    |
 | Beta (fast range)  | 21-30 Hz        | Global   | 0.037    |
+
 The MI scores obtained reveal a clear hierarchical pattern of frequency band importance in AD diagnosis. The slow-wave frequencies show the strongest associations, with Theta (MI = 0.112) and Delta (MI = 0.104) bands together accounting for over 56% of the relative importance. These findings align with previous literature showing increased slow-wave activity in AD. The analysis also reveals region-specific importance, particularly in temporal and central areas for Delta and Alpha bands respectively.
 
 The relatively close MI scores among the top features (0.082-0.112) suggest that AD detection benefits from considering multiple frequency bands rather than relying on a single discriminative feature.
@@ -62,3 +63,4 @@ My exploration revealed a fundamental trade-off in detection approaches that has
 
 While oversampling achieved the highest performance metrics, I recommend the more conservative downsampling approach for clinical implementation. This choice prioritizes reliability and generalizability over raw performance metrics. 
 
+ 
