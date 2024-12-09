@@ -5,7 +5,7 @@ from sklearn.feature_selection import mutual_info_classif
 from sklearn.decomposition import PCA
 import logging
 from pathlib import Path
-from typing import Tuple, List, Dict
+from typing import Tuple
 
 class FeatureEngineer:
     """Class for feature engineering of EEG data with mutual information selection."""

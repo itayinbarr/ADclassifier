@@ -12,10 +12,10 @@ from imblearn.over_sampling import SMOTE
 # ML imports
 from sklearn.model_selection import (
     cross_val_score, StratifiedKFold, 
-    cross_validate, cross_val_predict
+    cross_validate
 )
 from sklearn.metrics import (
-    roc_auc_score, accuracy_score, classification_report, 
+    roc_auc_score, classification_report, 
     f1_score, confusion_matrix, balanced_accuracy_score
 )
 from sklearn.preprocessing import StandardScaler
@@ -23,8 +23,6 @@ from xgboost import XGBClassifier
 from catboost import CatBoostClassifier
 from sklearn.ensemble import (
     GradientBoostingClassifier,
-    StackingClassifier, 
-    VotingClassifier,
     RandomForestClassifier
 )
 from sklearn.pipeline import Pipeline
