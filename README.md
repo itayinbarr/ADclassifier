@@ -1,4 +1,4 @@
-# EEG Frequency Analysis for Alzheimer's Disease Detection
+# ML Based EEG Frequency Analysis for Alzheimer's Disease Detection
 
 This project implements a machine learning pipeline for analyzing EEG frequency patterns to detect Alzheimer's Disease (AD). It focuses on identifying and analyzing frequency-based differences between AD patients and age-matched healthy controls using EEG data.
 
